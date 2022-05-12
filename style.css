@@ -1,0 +1,94 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.user img {
+  width: 101.76px;
+  height: 101.76px;
+  background: #c4c4c4;
+  border-radius: 16px;
+}
+.user h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+.user p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #a9a9a9;
+}
+.userData {
+  display: flex;
+  flex-direction: row;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78px;
+  height: 52px;
+  background: #e5e5e5;
+  border-radius: 12px;
+  padding-top: 10px;
+  margin: 0 10px;
+}
+.number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #4e5150;
+  margin-top: 0;
+}
+.label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #bdbdbd;
+}
+.gallery {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.1s;
+}
+.img2 {
+  grid-column: 2/4;
+}
+.img3 {
+  grid-column: 1/3;
+}
+.img4 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+.gallery img:hover {
+  transform: scale(1.2);
+  box-shadow: -1px 1px 50px 5px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -1px 1px 50px 5px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -1px 1px 50px 5px rgba(0, 0, 0, 0.72);
+}
